@@ -1,4 +1,4 @@
-﻿# Sales & Customer Analytics
+# Sales & Customer Analytics
 
 
 
@@ -88,7 +88,7 @@ The project combines SQL-based analysis with an interactive Power BI dashboard t
 
 **Sales Metric Definitions:**
 
-- Gross Sales = Order Quantity Ã— Unit Price.
+- Gross Sales = Order Quantity x Unit Price.
 
 - Discount-Adjusted Sales = Sum of LineTotal after discounts.
 
@@ -150,7 +150,7 @@ The two sales figures represent different calculation methods and should not be 
 
 | 1 Order | 11,649 |
 
-| 2â€“5 Orders | 7,133 |
+| 2-5 Orders | 7,133 |
 
 | 6+ Orders | 337 |
 
@@ -162,57 +162,12 @@ Customer counts depend on the population being measured. The Power BI Customer t
 
 ## Project Structure
 
-
-
-```text
-
-sales-customer-analytics/
-
-â”‚
-
-â”œâ”€â”€ README.md
-
-â”‚
-
-â”œâ”€â”€ sql/
-
-â”‚   â”œâ”€â”€ 01_AdventureWorks_Table_Inventory.sql
-
-â”‚   â”œâ”€â”€ 02_Sales_Customer_Table_Identification.sql
-
-â”‚   â”œâ”€â”€ 03_Data_Profiling.sql
-
-â”‚   â”œâ”€â”€ 04_Data_Validation.sql
-
-â”‚   â”œâ”€â”€ 05_Core_Sales_Customer_Analysis.sql
-
-â”‚   â”œâ”€â”€ 06_Customer_Analysis.sql
-
-â”‚   â”œâ”€â”€ 07_Advanced_SQL.sql
-
-â”‚   â””â”€â”€ 08_Final_Business_Queries.sql
-
-â”‚
-
-â”œâ”€â”€ powerbi/
-
-â”‚   â””â”€â”€ Project_4_Sales_Customer_Analytics.pbix
-
-â”‚
-
-â”œâ”€â”€ reports/
-
-â”‚   â””â”€â”€ Project_4_Business_Insights.xlsx
-
-â”‚
-
-â”œâ”€â”€ docs/
-
-â””â”€â”€ screenshots/
-
-```
-
-
+Repository folders:
+- sql/ - 8 SQL analysis scripts
+- powerbi/ - Power BI dashboard
+- eports/ - Business insights Excel report
+- docs/ - Documentation
+- screenshots/ - Dashboard screenshots
 
 ## Project Deliverables
 
@@ -298,7 +253,7 @@ Refer to Microsoft's official documentation for information about the AdventureW
 
 
 
-- The analysis is based on historical sample data from 2011â€“2014.
+- The analysis is based on historical sample data from 2011-2014.
 
 - Historical findings should not be interpreted as current market conditions.
 
