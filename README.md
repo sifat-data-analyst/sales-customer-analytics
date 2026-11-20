@@ -47,19 +47,12 @@ The project combines SQL-based analysis with an interactive Power BI dashboard t
 
 
 | Tool | Purpose |
-
 |---|---|
-
 | SQL Server | Data querying and analysis |
-
 | SQL | Data profiling, validation, and business analysis |
-
 | Power Query | Data transformation |
-
 | Power BI | Interactive dashboard development |
-
 | DAX | KPI calculations and time-based analysis |
-
 | Excel | Business insights reporting |
 
 
@@ -69,19 +62,12 @@ The project combines SQL-based analysis with an interactive Power BI dashboard t
 
 
 | KPI | Result |
-
 |---|---:|
-
 | Discount-Adjusted Sales | $109.85M |
-
 | Gross Sales | $110.37M |
-
 | Total Orders | 31,465 |
-
 | Average Order Value | $3,491.07 |
-
 | Customer Records in Power BI Customer Table | 19,820 |
-
 | Customers with Recorded Orders | 19,119 |
 
 
@@ -145,13 +131,9 @@ The two sales figures represent different calculation methods and should not be 
 
 
 | Customer Group | Customers |
-
 |---|---:|
-
 | 1 Order | 11,649 |
-
 | 2-5 Orders | 7,133 |
-
 | 6+ Orders | 337 |
 
 
@@ -163,11 +145,11 @@ Customer counts depend on the population being measured. The Power BI Customer t
 ## Project Structure
 
 Repository folders:
-- sql/ - 8 SQL analysis scripts
-- powerbi/ - Power BI dashboard
-- eports/ - Business insights Excel report
-- docs/ - Documentation
-- screenshots/ - Dashboard screenshots
+- `sql/` - 8 SQL analysis scripts
+- `powerbi/` - Power BI dashboard
+- `reports/` - Business insights Excel report
+- `docs/` - Documentation
+- `screenshots/` - Dashboard screenshots
 
 ## Project Deliverables
 
